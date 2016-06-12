@@ -9,24 +9,13 @@
 /* Begin PBXBuildFile section */
 		26597E196C8FD1EFCC3542D3 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = F6FAF44C9ADBD46B1607187F /* LaunchScreen.xib */; };
 		2840B5F1BD3D2BF1903BF269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52E15CCACDD19D3F6BA2DD7 /* Foundation.framework */; };
-		29070F8F14621F57C7633941 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988762905FC7087BA692328 /* libPods-unit_tests.a */; };
 		4D83B3281BB3392C00A36DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC71991C1721B5F6D46A7D1 /* Main.storyboard */; };
-		4D8D86131B8FA09E00A212DF /* FISSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8D86121B8FA09E00A212DF /* FISSentence.m */; };
-		4D8D86161B909A3200A212DF /* FISSentenceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8D86141B90999000A212DF /* FISSentenceSpec.m */; };
+		4D8D86131B8FA09E00A212DF /* (null) in Sources */ = {isa = PBXBuildFile; };
 		5FDA21ED38E240D4C7579DE3 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559E3338F3745BA4CFAD84BA /* FISAppDelegate.m */; };
+		8AC6504D1D0A27DC00C2E0F6 /* FISSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6504C1D0A27DC00C2E0F6 /* FISSentence.m */; };
 		B87712233074C11A72E8D08D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212DBAE49445BF4A2D751301 /* Images.xcassets */; };
 		C2976F0EE5E5EEC67B92473E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A8291CA512245B71945FD /* main.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7E04D133F5D1EB4E5F61565F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9E6B92DF089CE752EB7B2C26 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4ABC9615BE7D0D12F1709AF9;
-			remoteInfo = "objc-fissentence";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0988762905FC7087BA692328 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,8 +30,9 @@
 		559E3338F3745BA4CFAD84BA /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		5F99908687436A885FE16FAD /* objc-fissentence-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "objc-fissentence-Info.plist"; sourceTree = "<group>"; };
 		74A3D3C37CB8B751866B7566 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AC6504B1D0A27DC00C2E0F6 /* FISSentence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISSentence.h; sourceTree = "<group>"; };
+		8AC6504C1D0A27DC00C2E0F6 /* FISSentence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSentence.m; sourceTree = "<group>"; };
 		9747AFC1CEFF3C81F5C70287 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
-		C046E3F301D53E2B5884BF5A /* objc-fissentenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objc-fissentenceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F1A8F792A9A827C27B8660 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 		F52E15CCACDD19D3F6BA2DD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F6FAF44C9ADBD46B1607187F /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -54,14 +44,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2840B5F1BD3D2BF1903BF269 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D58867572EB3879442245AFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29070F8F14621F57C7633941 /* libPods-unit_tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				325CD6F0314B85CB8C0CD078 /* objc-fissentence.app */,
-				C046E3F301D53E2B5884BF5A /* objc-fissentenceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +81,8 @@
 			children = (
 				9747AFC1CEFF3C81F5C70287 /* FISAppDelegate.h */,
 				559E3338F3745BA4CFAD84BA /* FISAppDelegate.m */,
+				8AC6504B1D0A27DC00C2E0F6 /* FISSentence.h */,
+				8AC6504C1D0A27DC00C2E0F6 /* FISSentence.m */,
 				0DC71991C1721B5F6D46A7D1 /* Main.storyboard */,
 				8222666202D6947F77ECE0A6 /* Resources */,
 			);
@@ -194,26 +177,6 @@
 			productReference = 325CD6F0314B85CB8C0CD078 /* objc-fissentence.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D5BF445C6DDB6D94016FB0F1 /* objc-fissentenceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F333FC8B655BDDFFE91FD81D /* Build configuration list for PBXNativeTarget "objc-fissentenceTests" */;
-			buildPhases = (
-				31D4D64893DC4DA8F6F1F63F /* Check Pods Manifest.lock */,
-				25CC46865975C46548D7CC51 /* Sources */,
-				D58867572EB3879442245AFF /* Frameworks */,
-				29DDD0A5455E64B941AD1436 /* Resources */,
-				9937D6F7DEC955D47630DD6D /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9342B3928084A05A6A20BFEA /* PBXTargetDependency */,
-			);
-			name = "objc-fissentenceTests";
-			productName = "objc-fissentenceTests";
-			productReference = C046E3F301D53E2B5884BF5A /* objc-fissentenceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -237,7 +200,6 @@
 			projectRoot = "";
 			targets = (
 				4ABC9615BE7D0D12F1709AF9 /* objc-fissentence */,
-				D5BF445C6DDB6D94016FB0F1 /* objc-fissentenceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,63 +214,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29DDD0A5455E64B941AD1436 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		31D4D64893DC4DA8F6F1F63F /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9937D6F7DEC955D47630DD6D /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		25CC46865975C46548D7CC51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D8D86161B909A3200A212DF /* FISSentenceSpec.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B66A236B854F0DC218BAB90A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5FDA21ED38E240D4C7579DE3 /* FISAppDelegate.m in Sources */,
-				4D8D86131B8FA09E00A212DF /* FISSentence.m in Sources */,
+				4D8D86131B8FA09E00A212DF /* (null) in Sources */,
+				8AC6504D1D0A27DC00C2E0F6 /* FISSentence.m in Sources */,
 				26597E196C8FD1EFCC3542D3 /* LaunchScreen.xib in Sources */,
 				C2976F0EE5E5EEC67B92473E /* main.m in Sources */,
 			);
@@ -316,57 +231,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		9342B3928084A05A6A20BFEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4ABC9615BE7D0D12F1709AF9 /* objc-fissentence */;
-			targetProxy = 7E04D133F5D1EB4E5F61565F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		64B32D7A683E894A2149E7DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74A3D3C37CB8B751866B7566 /* Pods-unit_tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc-fissentence.app/objc-fissentence";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
-				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		8E110146FEB9EA2B3CC56FE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7F1A8F792A9A827C27B8660 /* Pods-unit_tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc-fissentence.app/objc-fissentence";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
-				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 		C6B40BC4F6E6CA4E61C42457 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -539,15 +404,6 @@
 			buildConfigurations = (
 				DE666005FA0E21846E6716D9 /* Release */,
 				C6B40BC4F6E6CA4E61C42457 /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F333FC8B655BDDFFE91FD81D /* Build configuration list for PBXNativeTarget "objc-fissentenceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8E110146FEB9EA2B3CC56FE3 /* Release */,
-				64B32D7A683E894A2149E7DB /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
